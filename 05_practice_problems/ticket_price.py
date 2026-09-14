@@ -1,10 +1,12 @@
 age=int(input("enter a age:"))
-price=int(input("enter a price:"))
-discount=price*10/price
-tprice=price-discount
+ticket_price=float(input("enter a ticket price:"))
 if age<12:
+    discount=ticket_price*10/100
     
-    print("ticket price:",tprice)
-elif age>12:
-    price=price-discount
-    print("ticket price:",tprice)
+else :
+    discount=ticket_price*5/100
+
+final_price=ticket_price-discount
+print("discount:",discount)
+print("final ticket price:",final_price)
+    

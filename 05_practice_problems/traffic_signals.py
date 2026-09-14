@@ -1,6 +1,10 @@
-color=input("enter a color:")
-match color:
+signal=input("enter a color:")
+match signal:
     case 'red':
-        print("stop")
+        print("Traffic Signal: Red -> Stop")
     case 'yellow':
-        print("")
+        print("Traffic Signal: Yellow ->Get Ready")
+    case 'green':
+        print("Traffic Signal: Green ->Go")
+    case _:
+        print("Invalid Colors")
