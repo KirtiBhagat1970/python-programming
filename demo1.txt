@@ -1,0 +1,4 @@
+line1:python
+line2:java
+line3:DSA
+line4:ADBMS
