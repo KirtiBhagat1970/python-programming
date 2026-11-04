@@ -8,4 +8,4 @@ def operation_factory(op):
     else: 
         return mul
 f = operation_factory("mul")
-print(f(3, 4))  
+print(f(5, 10))  
