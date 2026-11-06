@@ -1,6 +1,6 @@
 # using nonlocal 
 def myfunc1(): 
-    x = "Jane" 
+    x = "kirti" 
     def myfunc2(): 
         nonlocal x 
         x = "hello" 
